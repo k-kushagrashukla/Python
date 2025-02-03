@@ -191,3 +191,67 @@ Aise symbols jo kuch task perform karte hai.(+,-,x,%,/...etc)
 
 ## String Handling
 koi bhi word or senetence in double or single quotes (sequence of textual data)
+- **String Indexing** : har string mein ek index number hota hai , uss string ke index ke zariya hmlog uss string ke characters ko access kar skte hai easily.
+example : `name= Shradhha ka Aashiq`
+```python
+print(name[0])
+output= S
+```
+> Note : In python , indexing start from 0
+- **String Slicing** : Har string ko hmlog small small slices mein access kar skte hai (matlab chothe chothe part bhi string ka access karna easy hai )
+
+![WhatsApp Image 2025-02-03 at 19 14 29_4f113bdd](https://github.com/user-attachments/assets/f0396cee-91b6-4f27-b20c-7d36b40d74b2)
+
+```python
+n="singh"
+n[-1]
+output=h
+
+s[1:40]
+output=ingh
+
+s[:4]
+output=sing
+```
+## Some methods of string
+- `lower()` : Convert string to lowercase( bade ko chotha )
+- `upper()` : convert string to uppercase( chothe ko bada)
+```python
+love='kushagra likes shradhha ji'
+print(love.upper())
+output= KUSHAGRA LIKES SHRADHHA JI
+
+love2='KUSHAGRA LIKES NIH JI'
+print(love2.lower())
+output= kushagra likes nih ji
+```
+- `strip()` : removes whitespaces after and before the string.
+```python
+name='   kushagra is great at coding  '
+print(name.strip())
+output= 'kushagra is great at coding'
+```
+- `split()` : ye method split karta hai ek string ko in different-different strings.
+```python
+name='Hrithik Roshan'
+print(name.split())
+output=['Hrithik','roshan']
+```
+- `capitalize()` : Capitalizes the first character of the string.
+- `count()` : Returns the number of occurrences of a value within the string.
+```python
+str='i like u i love u i miss u'
+print(str.count('i'))
+outpput=5
+```
+- `find()` : kisi string ke part ko find karta hai ye method , whether string is a part of that word or not ?
+```python
+str = "He's name is kushagra and he is enough goood"
+print(str.find("is"))
+print(str.find("Daniel"))
+output=6
+output=-1
+```
+These are the main string methods ☝️.
+
+---
