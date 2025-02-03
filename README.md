@@ -88,3 +88,106 @@ Python Conatin following inbuilt data types :-
 13) dict
 14) None
 
+1) int : integer values
+```python
+a=10
+type(a)
+output=int
+```
+2) float: decimal values
+```python
+f=1.034
+type(f)
+output=float
+```
+3) complex: real + imaginary values
+```python
+a=3+5j
+```
+4)boal: for boolean values(true and false)
+```python
+a=kushara loves shradhha
+b=shradhha loves kushagra
+a=b
+output: False 😭
+```
+5) str: koi bhi word or senetence in double or single quotes
+```python
+"kushagra loves shradhha ji"
+"kushagra loves niharika ji"
+'kushagra friend loves stuti ji'
+```
+6) list: group of values either int, float,str etc.. ( for storing duplicate values also)
+```python
+list=['ram','ghanshyam','radheshyam',1.5,True]
+Print(list)
+```
+7) tuple: tuple is exactly same as list but it is only read version of list
+```python
+t(10,20,30,40)
+type(t)
+t[0]=100
+type error:'tuple object does not support item assignment
+```
+8) dict: dictionary (storing data in the form of key value pairs)
+```python
+dict1 = { "name": "Kushagra", "age": 21, "girlfriends": 0 😭, "canCode": True, "canDraw": True }
+```
+etc..... 
+aage aur bhi kai saare data type hai , lekin vo aap kahin se bhi padh skte ho vo bhutt simple hai .
+
+main data type : 
+```python
+Integer: a=1
+Boolean: b = False
+String: c = "Shradhha ji"
+NoneType: d = None
+```
+---
+## Type Casting
+Conerting from one data type to another
+
+functions:-
+
+- *int()*
+
+- *float()*
+
+- *complex()*
+
+- *boal()*
+
+- *str()*
+
+## Types of type casting
+- Explicit Conversion: Done manually by the developer.
+- Implicit Conversion: Automatically performed by Python.
+
+example:-
+
+```python
+int(123.456) # typecasting float value to integer
+output-123
+
+int("12") # typecasting string to integer
+output-12
+```
+## Operators
+Aise symbols jo kuch task perform karte hai.(+,-,x,%,/...etc)
+
+*+* : Addition
+
+*-* : Subtraction
+
+*x(*)* : Multiplication
+
+*/* : Division
+
+*%* : Modulus
+
+*//* : Floor Divsion
+
+*xx(**)* : exponention
+
+## String Handling
+koi bhi word or senetence in double or single quotes (sequence of textual data)
