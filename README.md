@@ -583,3 +583,9 @@ class MyClass:
 p1 = MyClass()
 print(p1.x)
 ```
+---
+Agar achha laga ho to , please drop a 🌟. 
+> mere aur meri crush ke liye hi kardo :)
+
+![WhatsApp Image 2025-02-04 at 22 30 44_90c403d9](https://github.com/user-attachments/assets/836e2f32-557b-48ea-89f4-02f332b8c655)
+
