@@ -108,7 +108,7 @@ a=3+5j
 ```python
 a=kushara loves shradhha
 b=shradhha loves kushagra
-a=b
+a==b
 output: False 😭
 ```
 5) str: koi bhi word or senetence in double or single quotes
