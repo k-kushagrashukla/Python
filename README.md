@@ -106,7 +106,7 @@ a=3+5j
 ```
 4)boal: for boolean values(true and false)
 ```python
-a=kushara loves shradhha
+a=kushagra loves shradhha
 b=shradhha loves kushagra
 a==b
 output: False 😭
